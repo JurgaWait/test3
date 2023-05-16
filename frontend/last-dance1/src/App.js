@@ -10,7 +10,7 @@ function App() {
   return (
   <Routes>
     <Route element={<BlogList/>} path='/' />;
-    <Route element={<NewBlog/>} path='/new' />;
+    <Route element={<NewBlog/>} path='/add' />;
   </Routes>
 )}
 
